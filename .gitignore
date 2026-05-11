@@ -41,3 +41,6 @@ wheels/
 *.csv
 Gefilterte_Noten*.xlsx
 Gefilterte_Noten*.csv
+
+# 旧的编译文件
+NotenExtraktor/
