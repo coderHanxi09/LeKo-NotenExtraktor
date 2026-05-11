@@ -41,34 +41,6 @@ streamlit run streamlit_app.py
 
 Der Browser wird automatisch auf `http://localhost:8501` geöffnet
 
-### Cloud-Bereitstellung
-
-#### Option 1: Streamlit Cloud (empfohlen ⭐)
-
-Die einfachste Möglichkeit, völlig kostenlos:
-
-1. Code nach GitHub hochladen
-2. Besuchen Sie https://streamlit.io/cloud
-3. Mit GitHub anmelden
-4. Klicken Sie auf "New app" und wählen Sie dieses Repository
-5. Automatische Bereitstellung abgeschlossen!
-
-#### Option 2: Heroku
-
-```bash
-heroku login
-heroku create your-app-name
-git push heroku main
-heroku open
-```
-
-#### Option 3: Railway
-
-1. Besuchen Sie https://railway.app
-2. Mit GitHub anmelden
-3. Wählen Sie "New Project"
-4. Bereitstellung abgeschlossen!
-
 ---
 
 ## 📋 Anleitung
@@ -92,7 +64,6 @@ heroku open
 LeKo-NotenExtraktor/
 ├── streamlit_app.py          # Hauptanwendungseingangspunkt
 ├── requirements.txt          # Python-Abhängigkeiten
-├── Procfile                  # Heroku-Konfiguration
 ├── .streamlit/
 │   └── config.toml          # Streamlit-Konfiguration
 ├── .gitignore               # Git-Ignorierungsdatei
