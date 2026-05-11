@@ -30,7 +30,6 @@ with st.sidebar:
     
     Extrahiert nur Studenteninformationen mit Noten **1,0** und **1,3**.
     """)
-    """)
     
     st.markdown("### ⚙️ Anleitung")
     st.markdown("""
